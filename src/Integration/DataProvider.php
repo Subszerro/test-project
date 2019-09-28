@@ -47,12 +47,12 @@ class DataProvider
 	 * 
 	 * @param array $request Исходные данные запроса
 	 *
-	 * @return array
+	 * @return array Ответ от стороннего сервиса
 	 */
 	public function get(array $request) : array
 	{
-		// returns a response from external service
-		//добавил заглушку для корректной работы
+		// Добавить запрос к стороннему сервису
+		// Добавил заглушку ответа для корректной работы
 		return [
 			'response' => []
 		];
