@@ -52,5 +52,6 @@ class DataProvider
 	public function get(array $request) : array
 	{
 		// returns a response from external service
+		return ['response' => []];
 	}
 }
